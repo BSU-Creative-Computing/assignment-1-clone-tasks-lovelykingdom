@@ -1,0 +1,110 @@
+/* Center the body content horizontally and vertically */
+body {
+    margin-left: auto;       
+/* Center content horizontally */
+    margin-right: auto;      
+/* Center content horizontally */
+    margin-bottom: auto;     
+/* Center content vertically */
+    margin-top: auto;        
+/* Center content vertically */
+}
+
+
+* {
+/* Apply box-sizing to all elements to include padding and border in element's total width */
+    box-sizing: border-box;
+
+}
+
+/* Define the CSS for columns in a layout */
+.column {
+
+    float: left;             
+/* Make columns float side by side */
+    width: 33.33%;           
+/* Set the width of each column to one-third of the container */
+    padding: 5px;           
+ /* Add padding to each column */
+}
+
+/* Clear floated elements in a row */
+.row::after {
+
+    content: "";
+
+    clear: both;
+
+}
+
+/* Style the footer element */
+footer {
+
+    background-color: black; 
+/* Set the background color to black */
+    text-align: center;      
+/* Center-align text within the footer */
+    color: azure;            
+/* Set text color to azure (light blue) */
+    padding: 20px;           
+/* Add padding to the footer */
+}
+
+/* Apply different styles when the screen width is at least 1024px */
+@media screen and (min-width: 1024px) {
+    body {
+
+        margin-left: 10%;     
+/* Adjust margin for larger screens */
+        margin-right: 10%;   
+ /* Adjust margin for larger screens */
+    }
+}
+
+/* Apply styles to images and the "logo.svg" element when the screen width is exactly 1024px */
+@media screen and (width: 1024px) {
+
+    img, logo.svg {
+
+        height: 6%;           
+ /* Set the height of images and "logo.svg" */
+        width: 6%;            
+ /* Set the width of images and "logo.svg" */
+    }
+}
+
+/* Apply different column width for smaller screens (max-width: 800px) */
+@media screen and (max-width: 800px) {
+
+    .column {
+
+        width: 50%;             
+/* Adjust column width for screens up to 800px wide */
+    }
+}
+
+/* Adjust column and row width for screens up to 480px wide */
+@media screen and (max-width: 480px) {
+
+    .column, .row::after {
+
+        width: 100%;            
+/* Adjust column and row width for screens up to 480px wide */
+    }
+}
+
+/* Add padding to paragraphs within the page content */
+p {
+
+    padding-left: 2%;
+
+    padding-right: 2%;
+
+}
+
+/* Add left padding to the container class */
+.container {
+
+    padding-left: 3%;
+
+}
