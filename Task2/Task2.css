@@ -1,0 +1,454 @@
+/* Setting auto margins for centering the body */
+body {
+    margin-left: auto;
+    margin-top: auto;
+    margin-right: auto;
+    margin-bottom: auto;
+}
+
+/* Flex container styling for layout */
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    gap: 4px;
+    height: 100%;
+    margin-top: 2%;
+}
+
+/* Styling for side elements within the flex container */
+.side {
+    display: flex;
+    gap: 4px;  
+}
+
+/* Styling for individual items within the flex container */
+.item {
+    flex-grow: 1;
+    border: 2px solid white;
+    background-color: white;
+    box-shadow: 5px 5px 10px 0px rgba(0, 0, 0, 0.5);   
+}
+
+/* Specific styling for the first item */
+.item1 {
+    flex-grow: 0.4;
+    margin-bottom: 30%;
+}
+
+/* Styling for items 2 and 4 */
+.item2, .item4 {
+    height: 57%;
+    margin-bottom: 4px;  
+}
+
+/* Styling for items 3 and 5 */
+.item3, .item5 {
+    height: 60%;    
+}
+
+/* Common width for all items */
+.item1, .item2, .item3, .item4, .item5 {
+    width: 300px;  
+}
+
+/* Styling for header1 */
+.header1 {
+    padding-left: 12px;
+    font-family: sans-serif;
+}
+
+/* Styling for additional text1 */
+.txt1 {
+    padding-left: 12px;
+    font-family: sans-serif;
+    color: rgb(125, 115, 115);
+}
+
+/* Styling for button1 */
+.btn1 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 77%;
+    margin-top: 4%;
+}
+
+/* Styling for image2 */
+.image2 {
+    padding: 8px;
+}
+
+/* Styling for header2 */
+.header2 {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+/* Styling for additional text2 */
+.txt2 {
+    padding-left: 15px;
+    color: rgb(125, 115, 115);
+}
+
+/* Styling for button2 */
+.btn2 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 58%;
+    margin-top: 4%;
+}
+
+/* Styling for image4 */
+.image4 {
+    padding: 8px;
+}
+
+/* Styling for header4 */
+.header4 {
+    padding-left: 4%;
+    font-family: sans-serif;
+}
+
+/* Styling for additional text4 */
+.txt4 {
+    padding-left: 13px;
+    color: rgb(125, 115, 115);
+}
+
+/* Styling for button4 */
+.btn4 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 58%;
+    margin-top: 4%;
+}
+
+/* Styling for image3 */
+.image3 {
+    padding: 8px;
+}
+
+/* Styling for header3 */
+.header3 {
+    padding-left: 4%;
+    font-family: sans-serif;
+}
+
+/* Styling for additional text3 */
+.txt3 {
+    padding-left: 13px;
+    color: rgb(125, 115, 115);
+}
+
+/* Styling for button3 */
+.btn3 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 58%;
+    margin-top: 4%;
+}
+
+/* Styling for image5 */
+.image5 {
+    padding: 8px;
+}
+
+/* Styling for header5 */
+.header5 {
+    padding-left: 4%;
+    font-family: sans-serif;
+}
+
+/* Styling for additional text5 */
+.txt5 {
+    padding-left: 13px;
+    color: rgb(125, 115, 115);
+}
+
+/* Styling for button5 */
+.btn5 {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 58%;
+    margin-top: 4%;
+}
+
+/* Styling for the top navigation bar */
+.one {
+    background-color:#1E90FF;
+    color: white;
+    padding-left: 20px;
+    font-family: sans-serif;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    height: 90px;
+}
+
+/* Styling for the search box */
+.search-box {
+    display: flex;
+    margin-left: 42%;
+    padding: 10px;
+    margin-bottom: 80px;
+    padding-bottom: 15px;
+    margin-top: -50px;
+    align-items: center;
+}
+
+/* Styling for the search input */
+.search-box input[type=text] {
+    display: flex;
+    border: 1px solid #ccc;  
+    padding: 10px;
+}
+
+/* Styling for navigation links */
+a {
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+}
+
+/* Styling for unordered list */
+ul {
+    list-style-type: none;
+}
+
+/* Styling for list items in navigation */
+li {
+    display: inline-block;
+}
+
+/* Styling for the navigation */
+.nav {
+    padding-left: 79%;
+    margin-top: -130px;
+    display: block;    
+}
+
+/* Styling for the footer */
+footer {
+    color: #000000;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 50px;
+    font-family: sans-serif;
+}
+
+
+/* Media query for screens with a maximum width of 1024px */
+@media screen and (max-width: 1024px) {
+    /* Adjustments for item widths and heights */
+    .item2, .item3, .item4, .item5 {
+        width: 300px;
+        height: 50%;
+    }
+    /* Adjustments for the width of item1 */
+    .item1 {
+        width: 40%;
+    }
+    /* Flex container adjustments */
+    .flex {
+        justify-content: right;
+    }
+    /* Padding adjustment for lower section */
+    .lower {
+        padding-top: 1%;
+    }
+    /* Navigation adjustments */
+    .nav {
+        padding-left: 90%;
+        margin-top: -130px;
+    }
+    /* Font size adjustment for navigation list items */
+    ul {
+        font-size: smaller;
+    }
+    /* Font size adjustment for the header with background color */
+    .one {
+        font-size: small;
+    }
+    /* Styling for the search box */
+    .search-box {
+        display: flex;
+        margin-left: 42%;
+        padding: 10px;
+        margin-bottom: 80px;
+        padding-bottom: 15px;
+        margin-top: -50px;
+    }
+    /* Styling for the search input */
+    .search-box input[type=text] {
+        display: flex;
+        border: 1px solid #ccc;
+        width: 130px;
+    }
+}
+
+/* Media query for screens with a maximum width of 800px */
+@media screen and (max-width: 800px) {
+    /* Adjustment for the width of item1 */
+    .item1 {
+        width: 83vh;
+    }
+    /* Flex container adjustments */
+    .flex {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    /* Margin adjustment for side elements */
+    .side {
+        margin-top: -27%;
+    }
+    /* Margin adjustment for the lower section */
+    .lower {
+        margin-top: -27.7%;
+    }
+}
+
+/* Additional media queries for smaller screens (771px, 733px) */
+
+/* Media query for screens with a maximum width of 609px */
+@media screen and (max-width: 609px) {
+    /* Flex container adjustments */
+    .flex {
+        display: flex;
+    }
+    /* Adjustment of item widths */
+    .item1, .item2, .item3, .item4, .item5 {
+        width: 100%;
+    }
+    /* Margin adjustment for item4 */
+    .item4 {
+        margin-top: 29%;
+    }
+    /* Centering the header with background color */
+    .one {
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+/* Additional media queries for specific screen widths (800px, 480px) */
+
+/* Media query for screens with a maximum width of 800px */
+@media (max-width: 800px) {
+    /* Hide navigation list for screens up to 800px */
+    .nav ul {
+        display: none;
+    }
+    /* Display navigation toggle for screens up to 800px */
+    .nav .toggle {
+        display: block;
+    }
+}
+
+/* Media query for screens with a maximum width of 480px */
+@media (max-width: 480px) {
+    /* Margin adjustment for navigation toggle */
+    .nav .toggle {
+        margin-left: -35%;
+    }
+}
+
+/* Additional media queries for larger screens (800px, 1025px) */
+
+/* Media query for screens greater than 800px */
+@media (min-width: 800px) {
+    /* Display navigation list for screens greater than 800px */
+    .nav ul {
+        display: inline-block;
+        margin-left: -160%;
+    }
+    /* Hide navigation toggle for screens greater than 800px */
+    .nav .toggle {
+        display: none;
+    }
+}
+
+/* Media query for screens greater than 1025px */
+@media (min-width: 1025px) {
+    /* Display navigation list for screens greater than 1025px */
+    .nav ul {
+        display: inline-block;
+        margin-left: -45%;
+    }
+    /* Hide navigation toggle for screens greater than 1025px */
+    .nav .toggle {
+        display: none;
+    }
+}
+
+/* Additional media query for a specific range of screen widths (800px, 895px) */
+
+/* Media query for screens between 800px and 895px */
+@media (min-width: 800px) and (max-width: 895px) {
+    /* Display navigation list for screens in the specified range */
+    .nav ul {
+        display: inline-block;
+        margin-left: -210%;
+    }
+    /* Hide navigation toggle for screens in the specified range */
+    .nav .toggle {
+        display: none;
+    }
+}
+
+/* Additional media query for screens in a specific range (200px, 608px) */
+
+/* Media query for screens between 200px and 608px */
+@media (min-width: 200px) and (max-width: 608px) {
+    /* Margin adjustment for the footer */
+    footer {
+        margin-top: 50%;
+    }
+}
+
+/* Additional media query for screens in a specific range (1025px, 1600px) */
+
+/* Media query for screens between 1025px and 1600px */
+@media (min-width: 1025px) and (max-width: 1600px) {
+    /* Margin adjustment for button 1 */
+    .btn1 {
+        margin-left: 60%;
+    }
+}
